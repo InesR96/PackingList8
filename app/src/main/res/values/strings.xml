@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PackingList</string>
+    <string name="description">description</string>
+    <string name="todo">TODO</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="get_date">Get Date</string>
+</resources>

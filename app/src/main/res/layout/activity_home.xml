@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/description"
+    tools:context=".HomeActivity">
+
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="284dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorPrimaryDark"
+        android:shadowColor="#E91E63"
+        android:text="@string/pick_date"
+        android:textColorLink="@color/design_default_color_primary"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="97dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/get_date"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="157dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        app:srcCompat="@drawable/kofer"
+        tools:visibility="visible"
+        android:layout_width="151dp"
+        android:layout_height="175dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+     />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="33dp"
+        android:autoText="false"
+        android:text="make your own list"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
